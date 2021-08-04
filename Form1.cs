@@ -224,7 +224,7 @@ namespace windowsCalculator
 
          }
 
-        private void Calculator_Load(object sender, EventArgs e)
+        /*private void Calculator_Load(object sender, EventArgs e)
         {
             Memory.Visible = false;
         }
@@ -237,6 +237,8 @@ namespace windowsCalculator
                
 
 
-        }
+        }*/
+
+  
     }
 }

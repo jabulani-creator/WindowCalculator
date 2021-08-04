@@ -67,7 +67,6 @@ namespace windowsCalculator
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.History = new System.Windows.Forms.Label();
-            this.Memory = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -618,17 +617,6 @@ namespace windowsCalculator
             this.History.Padding = new System.Windows.Forms.Padding(16, 10, 16, 10);
             this.History.Size = new System.Drawing.Size(32, 33);
             this.History.TabIndex = 37;
-            this.History.Click += new System.EventHandler(this.History_Click);
-            // 
-            // Memory
-            // 
-            this.Memory.BackColor = System.Drawing.Color.Gainsboro;
-            this.Memory.ForeColor = System.Drawing.Color.Gainsboro;
-            this.Memory.Location = new System.Drawing.Point(3, 197);
-            this.Memory.Name = "Memory";
-            this.Memory.Size = new System.Drawing.Size(415, 315);
-            this.Memory.TabIndex = 38;
-            this.Memory.Text = "";
             // 
             // Calculator
             // 
@@ -636,7 +624,6 @@ namespace windowsCalculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(422, 515);
-            this.Controls.Add(this.Memory);
             this.Controls.Add(this.History);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -682,7 +669,6 @@ namespace windowsCalculator
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.TransparencyKey = System.Drawing.Color.White;
-            this.Load += new System.EventHandler(this.Calculator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -727,7 +713,6 @@ namespace windowsCalculator
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label History;
-        private System.Windows.Forms.RichTextBox Memory;
     }
 }
 
