@@ -17,7 +17,7 @@ namespace windowsCalculator
         string Operation_performed = "";
        string Full_operation = "";
         bool Is_operation_performed = false;
-        bool Is_history_clicked = false;
+        //bool Is_history_clicked = false;
         public Calculator()
         {
             InitializeComponent();
@@ -76,10 +76,6 @@ namespace windowsCalculator
                     Current_operation.Text = $"sqr( {Result_value} )";
                     Result_value = Math.Pow(Result_value, 2);
                     break;
-                /*case "%":
-                        Result_value /= 100;
-                        Current_operation.Text = $"{Result_value}";
-                    break;*/
                 default:
                     break;
 
@@ -131,11 +127,7 @@ namespace windowsCalculator
             Result_value = Double.Parse(Results_output.Text);
                 Current_operation.Text = $"{Full_operation} {Second_value} = ";
             
-            
-         
             //Current_operation.Text = $"";
-
-
         }
 
         private void Backspace_Click(object sender, EventArgs e)
@@ -180,40 +172,7 @@ namespace windowsCalculator
             Results_output.Text = Result_value.ToString();
         }
 
-
-
-        /* private void Square_root_Click(object sender, EventArgs e)
-         {
-             resultValue = Double.Parse(results_Box.Text);
-             current_Operation.Text = $"√( {resultValue} )";
-             resultValue = Math.Sqrt(resultValue);
-             results_Box.Text = resultValue.ToString();
-
-         }
-
-         private void power_of_2_Click(object sender, EventArgs e)
-         {
-             resultValue = Double.Parse(results_Box.Text);
-             current_Operation.Text = $"sqr( {resultValue} )";
-             resultValue = Math.Pow(resultValue, 2);
-             results_Box.Text = resultValue.ToString();
-
-         }
-
-         private void divided_by_1_Click(object sender, EventArgs e)
-         {
-             resultValue = Double.Parse(results_Box.Text);
-             current_Operation.Text = $"1 /( {resultValue} )";
-             resultValue = (1 / resultValue); 
-             results_Box.Text = resultValue.ToString();
-         }
-
-         private void plus_minus_Click(object sender, EventArgs e)
-         {
-             resultValue = Double.Parse(results_Box.Text);
-             resultValue *= -1;
-             results_Box.Text = resultValue.ToString();
-         }*/
+ 
 
         private void Percentage_btn_Click(object sender, EventArgs e)
          {
@@ -224,20 +183,6 @@ namespace windowsCalculator
 
          }
 
-        /*private void Calculator_Load(object sender, EventArgs e)
-        {
-            Memory.Visible = false;
-        }
-
-        private void History_Click(object sender, EventArgs e)
-        {
-            if (Is_history_clicked) { Memory.Visible = true; } 
-            else{ Memory.Visible = false; }
-               
-               
-
-
-        }*/
 
   
     }
