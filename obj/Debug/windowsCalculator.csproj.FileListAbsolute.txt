@@ -8,3 +8,14 @@ C:\Users\laoying\source\repos\windowsCalculator\obj\Debug\windowsCalculator.cspr
 C:\Users\laoying\source\repos\windowsCalculator\obj\Debug\windowsCalculator.csproj.CoreCompileInputs.cache
 C:\Users\laoying\source\repos\windowsCalculator\obj\Debug\windowsCalculator.exe
 C:\Users\laoying\source\repos\windowsCalculator\obj\Debug\windowsCalculator.pdb
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\bin\Debug\windowsCalculator.exe.config
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\bin\Debug\windowsCalculator.exe
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\bin\Debug\windowsCalculator.pdb
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.csproj.AssemblyReference.cache
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.Calculator.resources
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.Properties.Resources.resources
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.csproj.GenerateResource.cache
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.exe
+C:\Users\Laoying\Desktop\C# Calculator\windowsCalculator\obj\Debug\windowsCalculator.pdb

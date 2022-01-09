@@ -17,7 +17,7 @@ namespace windowsCalculator
         string Operation_performed = "";
        string Full_operation = "";
         bool Is_operation_performed = false;
-        //bool Is_history_clicked = false;
+        bool Is_history_clicked = false;
         public Calculator()
         {
             InitializeComponent();
@@ -69,11 +69,11 @@ namespace windowsCalculator
             switch (Operation_performed)
             {
                 case "²√ x":
-                    Current_operation.Text = $"√( {Result_value} )";
+                    Current_operation.Text = $"√( {Result_value})";
                     Result_value = Math.Sqrt(Result_value);
                     break;
                 case "x²":
-                    Current_operation.Text = $"sqr( {Result_value} )";
+                    Current_operation.Text = $"sqr( {Result_value})";
                     Result_value = Math.Pow(Result_value, 2);
                     break;
                 default:
@@ -142,22 +142,7 @@ namespace windowsCalculator
             }
         }
 
-       /* private void Percentage_Operation(object sender, EventArgs e)
-
-        {
-            if (results_Box.Text.Length > 0 || results_Box.Text == "")
-            {
-                results_Box.Text = "0";
-                current_Operation.Text = "0";
-            }
-            else
-            {
-                resultValue = Double.Parse(results_Box.Text);
-                results_Box.Text = (resultValue /= 100).ToString();
-                current_Operation.Text = $"{resultValue}";
-                equal_Btn.PerformClick();
-            }
-        }*/
+    
         private void Plus_minus_Click(object sender, EventArgs e)
         {
             Result_value = Double.Parse(Results_output.Text);
